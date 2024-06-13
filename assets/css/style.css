@@ -1,0 +1,129 @@
+
+menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-izq{
+    display:flex; 
+    flex-basis: 0 0 100rem;
+    flex-direction:column;
+    text-align: center;
+    width: 20%;
+    min-height: 100vh;
+    align-items: start;
+}
+button{
+    display: flex;
+    margin-top: 8px;
+    padding-left: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-bottom: #fff;
+    align-items: center;
+    background-color: #a491d2;
+    text-align: center;
+    padding-top: auto;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+nav{
+
+    padding-left: 220px;
+    margin-top: -30px;
+    height: 40px;
+    size: 40px;
+}
+section{
+    flex-basis: 100px;
+    background-color: #fff;
+    width: 270px;
+    height: 50px;
+    border: #828485 1px solid;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 30px;
+    text-align: center;
+    width: 300px;
+    height: 15px;
+}
+i{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: -60px;
+    align-items: flex-start;
+    text-align: center;
+    font-size: medium;
+    font-style: normal;
+}
+h3{
+text-align: center;
+padding-top: auto;
+margin-top: -30px;
+margin-left: 10px;
+
+}
+h4{
+text-align: center;
+padding-top: auto;
+margin-top: -50px;
+margin-left: 50px;
+}
+p{
+display: flex;
+padding-top: -0px;
+padding-left: 50px;
+margin-top: -15px;
+margin-left: 80px;
+padding-left: 30px;
+padding-right: 0px;
+text-align: center;
+align-items: center;
+justify-content: space-between;
+}
+img{
+    display: flex;
+    flex: auto;
+    border-radius: 200px;
+    min-width: 20px;
+    max-width: 500px;
+    min-height: 18px; 
+    padding-top: 20px;
+    margin-top: -15px;
+    max-height: auto;
+}
+.menu-der{
+    justify-content: center;
+    flex-basis: auto;
+    flex-grow: initial;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color:#E8ebe4;
+    margin-top: 15px;
+    width: 1112px;
+    height: 1366px;
+    margin-top: 0px;
+    flex-flow: nowrap;
+    flex-direction: row;
+    }
+  span{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .hand{
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    padding-left: 320px;
+  }
